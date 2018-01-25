@@ -36,6 +36,8 @@ package com.toy.anagrams.lib;
  * test
  * test2
  */
+
+
 final class StaticWordLibrary extends WordLibrary {
 
     private static final String[] WORD_LIST = {
@@ -151,6 +153,13 @@ final class StaticWordLibrary extends WordLibrary {
     public String getWord(int idx) {
         return WORD_LIST[idx];
     }
+    
+    
+    private String getFirstWord() {
+        
+        
+    }
+    
 
     /**
      * Gets the word at a given index in its scrambled form.
